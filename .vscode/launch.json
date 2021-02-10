@@ -1,0 +1,32 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "fpstestbc16 Sandbox",
+            "request": "launch",
+            "type": "al",
+            "environmentType": "Sandbox",
+            "environmentName": "sandbox2",
+            "applicationFamily": "4PSConstruct",
+            "tenant": "5e68c8ed-67c1-433a-8508-f5842937d406",
+            "breakOnError": true,
+            "launchBrowser": true,
+            "enableLongRunningSqlStatements": true,
+            "enableSqlInformationDebugger": true
+        },
+        {
+            "name": "fpstestbc16 Sandbox attach",
+            "request": "attach",
+            "type": "al",
+            "environmentType": "Sandbox",
+            "environmentName": "sandbox2",
+            "applicationFamily": "4PSConstruct",
+            "tenant": "5e68c8ed-67c1-433a-8508-f5842937d406",
+            "breakOnError": true,
+            "breakOnRecordWrite": true,
+            "breakOnNext": "WebServiceClient",
+            "enableLongRunningSqlStatements": true,
+            "enableSqlInformationDebugger": true
+        }
+    ]
+}

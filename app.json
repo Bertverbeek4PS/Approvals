@@ -1,0 +1,26 @@
+{
+  "id": "82469b61-6a79-4b20-9da9-6fa6501e68a8",
+  "name": "Approvals",
+  "publisher": "4PS B.V.",
+  "version": "1.0.0.0",
+  "brief": "",
+  "description": "",
+  "privacyStatement": "",
+  "EULA": "",
+  "help": "",
+  "url": "",
+  "logo": "",
+  "dependencies": [],
+  "screenshots": [],
+  "platform": "17.0.0.0",
+  "application": "17.0.0.0",
+  "idRanges": [
+    {
+      "from": 50200,
+      "to": 50249
+    }
+  ],
+  "contextSensitiveHelpUrl": "https://Approvals.com/help/",
+  "showMyCode": true,
+  "runtime": "6.0"
+}
